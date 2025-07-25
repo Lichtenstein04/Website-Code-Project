@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #4a90e2, #9013fe);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            padding: 30px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+            max-width: 600px; 
+            margin: auto; 
+        }
+        img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav-card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px 25px;
+            transition: transform 0.3s, background 0.3s;
+            text-decoration: none;
+            color: #FFD700; 
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .nav-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.3);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .personal-info {
+            text-align: left; 
+            margin-top: 20px;
+        }
+        .personal-info h2, .educational-attainment h2, .special-skills h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            text-align: center; 
+        }
+        .personal-info p, .educational-attainment p, .special-skills p {
+            margin: 5px 0;
+            text-align: left; 
+        }
+        .special-skills {
+            text-align: left; 
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Noel T. Bingco Jr.</h1>
+        <img src="Face.jpg" alt="Profile Picture">
+        
+        <div class="personal-info">
+            <h2>Personal Information</h2>
+<p><strong>About Me:</strong> I’m a 2nd Year BSIT student at MATS College of Technology, passionate about technology, driven by curiosity, and always eager to learn and grow in the IT field.</p>
+            <p><strong>Birth Date:</strong> October 13, 2005</p>
+            <p><strong>Birth Place:</strong> Davao City</p>
+            <p><strong>Age:</strong> 19</p>
+            <p><strong>Religion:</strong> Roman Catholic</p>
+            <p><strong>Address:</strong> Blk 1-A Spring Valley, Buhangin, Davao City</p>
+            <p><strong>Email:</strong> Bingconoel44@gmail.com</p>
+            <p><strong>Mobile Number:</strong> 09946270958</p>
+        </div>
+
+        <div class="educational-attainment">
+            <h2>Educational Attainment</h2>
+<p><strong>MATS College of Technology </strong> (2024 - Present)<br>R.Castillo St, Agdao, Davao City</p>
+            <p><strong>Bernardo D. Carpio National High School</strong> - SHS (2021 - 2024)<br>Pioneer Village, Tigatto Rd, Buhangin, Davao City</p>
+            <p><strong>Sta. Ana National High School</strong> (2017 - 2021)<br>D. Suazo St, Davao City</p>
+            <p><strong>San Roque Central Elementary School</strong> (2011 - 2017)<br>Lacson St, Obrero, Davao City</p>
+        </div>
+
+        <div class="special-skills">
+            <h2>Special Skills</h2>
+            <p>● Excellent Teamwork and Communication Abilities</p>
+            <p>● Familiarity with Hardware Components and Troubleshooting Techniques</p>
+            <p>● Time Management</p>
+            <p>● Responsible</p>
+            <p>● Networking basics: LAN/WAN setup, IP Addressing</p>
+        </div>
+
+        <nav>
+            <a class="nav-card" href="PP1_Bingco.html">Homepage</a>
+            <a class="nav-card" href="PP3_Bingco.html">Autobiography Page</a>
+        </nav>
+    </div>
+</body>
+</html>
